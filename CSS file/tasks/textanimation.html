@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation</title>
+</head>
+<style>
+    @keyframes slideleft{
+        from{
+            transform: translateX(100px);
+        }
+        to{
+            transform: translateX(300px);
+        }
+    }
+    .heading{
+        /* animation: slideleft 1s ease-in 1s reverse both;
+        transform: translateX(-150px); */
+        
+        animation: slideleft 1s ease-in;
+
+        /* animation-name: sildeleft;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+        animation-fill-mode: both; */
+
+    }
+</style>
+<body>
+    <h1 class="heading">Hello,World!</h1>
+</body>
+</html>

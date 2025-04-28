@@ -1,0 +1,109 @@
+/* section img{
+    border: 5px solid black
+}
+section> img{
+    border: 5px solid rgb(97, 169, 9);
+} */
+
+
+/* adjusent sibling selector
+p+div,h4{
+    background-color: tomato;
+} */
+
+/* genereal sibling selector
+p~div{
+    background-color:yellow;
+}
+div+ div{
+    background-color: palevioletred;
+} */
+
+/* attribute selector
+ h1[id="second"]{
+    background-color:palevioletred;
+}
+a[target] {
+    background-color:saddlebrown ;
+    font-size: 50px;
+}
+a[target=_blank] {
+    background-color:skyblue ;
+}   
+ */
+
+
+
+ /* psudo element selector(::) */
+ /* p::first-letter{
+    color: bisque;
+    font-size: 20px;
+ }
+ p::first-line{
+    color: blueviolet;
+    font-size: 30px;
+    background-color: rgb(221, 172, 221);
+ }
+p::before{
+    content:"😂";
+    content: "happy";
+    content: "💕";  
+}
+p::after{
+    content: "👍";
+}
+
+li::marker{
+    color: chocolate;
+    font-size: 20px;
+}
+li::selection{
+    background-color: peachpuff;
+}
+.heading::selection{
+    background-color: peachpuff;
+}
+.heading::selection{
+    color: darkcyan;
+} */
+
+
+
+/* dynamic pseudo class */
+/* p:hover{
+    background-color: aqua;
+}
+a:visited{
+    color: rgb(120, 123, 63);
+}
+a:active{
+    background-color: rosybrown;
+}
+input:focus{
+    background-color: mediumseagreen;
+} */
+
+
+
+
+/* Structural psedo class */
+div p:first-child{
+    background-color: saddlebrown;
+}
+div p:last-child{
+    background-color: rgb(197, 87, 32);
+}
+/* for even childs 2n & for odd childs(2n-1) */
+div p:nth-child(3){
+    background-color: rgb(99, 139, 19);
+}
+div b:first-of-type{
+    background-color: rgb(33, 189, 206);
+}
+/* div p:last-of-type{
+    background-color: rgb(34, 41, 42);
+} */
+
+
+
+

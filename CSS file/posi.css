@@ -1,0 +1,24 @@
+.parent{
+    height: 800px;
+    width: 100%;
+    background-color: #e19696;
+
+}
+
+.fixed{
+    height: 100px;
+    width: 100px;
+    background-color: #9e1818;
+    position: fixed;
+    left: 500px;
+    top: 200px;
+}
+
+.sticky{
+    height: 100px;
+    width: 100px;
+    background-color: #5c810d;
+    margin-top: 200px;
+    position: sticky;
+    top: 100px;
+}

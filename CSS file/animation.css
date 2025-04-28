@@ -1,0 +1,46 @@
+.buld{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    border-radius: 50%;
+    animation-name: partylight;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes partylight {
+    10%{
+        background-color: #4174c1;
+        transform: scale(2);
+    }
+    20%{
+        background-color: #41c150;
+        translate: (200px);
+    }
+    30%{
+        background-color: #c1bd41;
+    }
+    40%{
+        background-color: #c14141;
+    }
+    50%{
+        background-color: #3a09ab;
+    }
+    60%{
+        background-color: #e3253e;
+    }
+    70%{
+        background-color: #fbff00;
+    }
+    80%{
+        background-color: #760dd8;
+    }
+    90%{
+        background-color: #e20909;
+    }
+    100%{
+        background-color: #ff9d00;
+    }
+    
+}

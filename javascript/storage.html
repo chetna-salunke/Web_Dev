@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local & session Storage</title>
+</head>
+<body>
+
+    <h1>Local And Session Storage</h1>
+    <script>
+
+        //Stores data locally on the user's computer.Data remains even after the browser is closed.
+        localStorage.setItem("Name", "Ravikiran")
+        localStorage.setItem("Place", "Pune")
+        localStorage.setItem("age", "24")
+        let place = localStorage.getItem("place")
+        // console.log(place);
+        localStorage.removeItem("age")
+        // console.log(localStorage);
+
+
+        // Limited to the current browser tab/window. Data is lost when the tab/window closes.Temporary data 
+        sessionStorage.setItem("name","Rohit")
+        let msg="i Love You!"
+        console.log(msg);
+        let printmsg= msg.repeat(3000)
+        console.log(printmsg);
+        
+        
+        
+        
+    </script>
+    
+</body>
+</html>

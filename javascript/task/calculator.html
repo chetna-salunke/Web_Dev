@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 720px;
+        top: 10px;
+        background-image: url(./images/calci.jpg);
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: contain;
+    }
+    #calculator{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgb(86, 86, 86);
+        border-radius: 15px;
+        height: 620px;
+        width: 460px;
+        overflow: hidden;
+        border-top-right-radius: 3%;
+        border-top-left-radius: 3%;
+        border-bottom-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+        box-shadow: 2px 1px 2px 1px whitesmoke;
+    }
+    .stylex{
+        padding: 18px;
+        height: 250px;
+        background-color: rgb(0, 0, 0);
+        border-bottom-left-radius: 8%;
+        border-bottom-right-radius: 8%;
+        box-shadow: 2px rgb(35, 90, 192);
+    }
+    .stylex h4{
+        color: white;
+        font-size: 25px;
+    }
+    .stylex h5{
+        margin-top: -30px;
+        color: white;
+        font-size: 10px;
+        letter-spacing: 5px;
+    }
+    .space{
+        height: 39px;
+        width: 130px;
+        position: absolute;
+        margin-top: -55px;
+        margin-left: 16rem;
+        align-self: left;
+        background-color: rgb(112, 114, 85);
+        border-radius: 8%;
+    }
+    .space p{
+        position: absolute;
+        margin-left: 9rem;
+        margin-top: 6px;
+        font-size: 28px;
+        color: white;
+    }
+    .space h6{
+        color: white;
+        margin-top: 35px;
+        margin-left: 9rem;
+        font-size: 7px;
+        letter-spacing: 2px;
+    }
+    #display{
+        width: 80%;
+        padding: 17px;
+        font-size: 5rem;
+        text-align: center;
+        border-left: 20px solid white;
+        border-right: 20px solid white;
+        border-top: 13px solid white;
+        border-bottom: 13px solid white;
+        background-color: rgb(153, 169, 124);
+        color: rgb(0, 0, 0);
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 8%;
+        border-bottom-left-radius: 8%;
+    }
+    #keys{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+        padding:50px 20px 0px 20px;
+        background-color: rgb(86, 86, 86);
+    } 
+    button{
+        width: 60px;
+        height: 60px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(126, 135, 139);
+        box-shadow: 0px 2px 0px 2px rgb(53, 53, 53) ;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: hsl(0, 0%, 40%);
+    }
+    button:active{
+        background-color:hsl(0, 0%, 50%);
+    }
+    .operator-btn{
+        background-color: hsl(0, 4%, 5%);
+    }
+    .operator-btn:hover{
+        background-color: hsl(0, 4%, 15%);
+    }
+    .operator-btn:active{
+        background-color: hsl(0, 4%, 25%);
+    }
+    .opeator-clear{
+        background-color: rgb(232, 72, 96);
+    }
+    .opeator-clear:hover{
+        background-color: rgb(238, 106, 128);
+    }
+    .opeator-clear:active{
+        background-color: hsl(343, 78%, 75%);
+    }
+
+</style>
+<body>
+    <div id="calculator">
+        <div class="stylex"> 
+            <h4>STYLEX<sup>®</sup></h4>
+            <h5>Schreihwaran</h5>
+            <div class="space">
+                <p>1Z</p>
+                <h6>DIGITS</h6>
+            </div>
+            <input id="display" readonly value="">
+        </div>
+        <div id="keys">
+            <button onclick="appendToDisplay('→')" class="operator-btn">→</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('%')"class="operator-btn">%</button>
+            <button onclick="appendToDisplay('MU')" class="operator-btn">MU</button>
+
+            <button onclick="appendToDisplay('+/-')" class="operator-btn">+/-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')" class="operator-btn">X</button>
+            <button onclick="appendToDisplay('÷')" class="operator-btn">÷</button>
+
+            <button onclick="appendToDisplay('√')" class="operator-btn">√</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+
+            <button onclick="clearDisplay()" class="opeator-clear">C</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('00')">00</button>
+            <button onclick="appendToDisplay('.')" class="operator-btn">.</button>
+            <button onclick="appendToDisplay('!')" class="operator-btn">!</button>
+            <button onclick="calculate()" class="operator-btn">=</button>
+        </div>
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

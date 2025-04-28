@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        background-color: rgb(45, 70, 146);
+        color: whitesmoke;
+        height: 4rem;
+        line-height: 4rem;
+        text-align: center;
+    }
+    .choices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+    .choice{
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .choice:hover{
+        cursor: pointer;
+        background-color: rgb(64, 64, 112);
+    }
+    img{
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        background-color: rgb(168, 221, 221);
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    .score-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-top: 7rem;
+        gap: 5rem;
+    }
+    #user-score, #comp-score{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .msg-container{
+        margin-top: 5rem;
+        text-align: center;
+    }
+    #msg{
+        background-color: rgb(100, 89, 56);
+        color: white;
+        display: inline;
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 5rem;
+    }
+
+</style>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./images/rock.png" alt="">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.png" alt="">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="./images/scissor.png" alt="">
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div id="score">
+            <p id="user-score">0</p>
+            <p>User</p>
+        </div>
+        <div id="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">play your Move</p>
+    </div>
+
+    <script src="RockPaperScissor.js"></script>
+</body>
+</html>

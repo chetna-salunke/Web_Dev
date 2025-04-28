@@ -1,0 +1,172 @@
+*{
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(223, 222, 203);
+}
+.page .base{
+    position: relative;
+    height: 130px;
+    width: 400px;
+    background-color: peru;
+    top: 400px;
+    place-self: center;
+    border-radius: 20px 20px 20px;
+    border-top-right-radius: 100px;
+}
+.page .upper{
+    position: relative;
+    height: 100px;
+    width: 270px;
+    background-color:peru;
+    top: 160px;
+    left: -35px;
+    place-self: center;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 90px;
+    border-bottom: 1px solid rgb(200, 127, 54);
+}
+.page .win1{
+    position: relative;
+    height: 70px;
+    width: 110px;
+    background: linear-gradient(rgb(182, 182, 220), white);
+    top: 20px;
+    left: -60px;
+    place-self: center;
+    border-top-left-radius: 60px;
+}
+.page .win2{
+    position: relative;
+    height: 70px;
+    width: 110px;
+    background: linear-gradient(rgb(182, 182, 220), white);
+    top: -60px;
+    left: 60px;
+    place-self: center;
+    border-top-right-radius: 60px;
+}
+.wheels .w1{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(218, 214, 214);
+    position: absolute;
+    top: 500px;
+    left: 630px;
+    border-radius: 50%;
+    border: 17px solid #000000;
+   animation-name: wheels;
+   animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.w1 .line{
+    height: 6px;
+    width: 35px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.w1 .line2{
+    height: 6px;
+    width: 35px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 20px;
+    left: -13px;
+}
+.w1 .line3{
+    height: 40px;
+    width: 6px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 25px;
+    left:23px;
+}
+.w1 .line4{
+    height: 40px;
+    width: 6px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: -20px;
+    left:23px;
+}
+
+.wheels .w2{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(218, 214, 214);
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    border-radius: 50%;
+    border: 17px solid #000000;
+    animation-name: wheels;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.w2 .line{
+    height: 6px;
+    width: 35px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.w2 .line2{
+    height: 6px;
+    width: 35px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 20px;
+    left: -13px;
+}
+.w2 .line3{
+    height: 40px;
+    width: 6px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 25px;
+    left:23px;
+}
+.w2 .line4{
+    height: 40px;
+    width: 6px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: -20px;
+    left:23px;
+}
+.light{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: relative;
+    top: 160px;
+    left: 900px;
+    border-top-right-radius:110px;
+    border-bottom-left-radius:150px;
+}
+.shadow{
+    height: 40px;
+    width: 600px;
+    position: relative;
+    background-color: rgb(53, 53, 53);
+    border-radius: 80%;
+    top:280px;
+    left:480px;
+    filter: blur(15px);
+}
+
+@keyframes wheels{
+    from{
+        transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
+}

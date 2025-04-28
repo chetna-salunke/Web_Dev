@@ -1,0 +1,11 @@
+var task= Math.cbrt(100)
+var task=Math.sqrt(10)
+var task=Math.round(3.8)
+var task=Math.trunc(8.4)
+var task=Math.ceil(4.3)
+var task=Math.floor(3.7)
+var task=Math.random()
+var task=Math.pow(25, 2)
+var task=Math.max(2355,2345,87,92)
+var task=Math.min(436,9865,95,22)
+console.log(task);

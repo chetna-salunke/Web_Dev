@@ -1,0 +1,81 @@
+.contact{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(27, 25, 26);
+}
+.contact h1{
+    height: 100px;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+.contact h2{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contacts .box{
+    height: 430px;
+    width: 390px;
+    background-color: rgb(242, 242, 242);
+    padding: 20px;  
+    border-radius: 7%;
+}
+
+.contacts .box:hover{
+    transform: translateY(-20px);
+    transition: 0.3s;
+    box-shadow: 0 0 4px 4px rgb(125, 178, 208);
+}
+.contacts .box h3{
+    font-size: 25px;
+    text-align: center;
+}
+.contacts .box button{
+    margin-top: -3px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(28, 96, 197);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.contacts .icon{
+    height: 440px;
+    width: 430px;
+    background-color: rgb(102, 122, 221);
+    padding: 20px;
+    border-radius: 7%;
+}
+.contacts .icon:hover{
+    transform: translateY(-20px);
+    transition: 0.3s;
+    box-shadow: 0 0 4px 4px rgb(125, 178, 208);
+}
+.contacts .icon h4{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.contacts .icon p{
+    margin-top: 9px;
+    font-size: 16px;
+    margin-left: 65px;
+    color: white;
+}
+.contacts .icon i{
+    margin-left: 40px;
+    font-size: 25px;
+}

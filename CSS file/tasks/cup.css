@@ -1,0 +1,138 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+.cup{
+    background-color:rgb(142, 158, 170);
+    height: 100vh;
+    width: 100%;
+}
+.cup-body{
+    position: relative;
+    height: 250px;
+    width: 300px;
+    background-color: #051067;
+    bottom: -335px;
+    left: 600px;
+    border: 17px solid rgb(216, 213, 213);
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    /* box-shadow: 0px 0px 20px 0px rgb(54, 53, 53); */
+    /* border-top-left-radius: 7%; */
+}
+.cup-top{
+    position: relative;
+    height: 50px;
+    width: 290px;
+    bottom: -355px;
+    left: 602px;
+    background-color: rgb(183, 131, 33);
+    border-radius:100%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border: 10px solid #ffffff;
+    border-top: 5px solid rgb(216, 213, 213);
+    border-left: 20px solid  rgb(216, 213, 213);
+    border-right:20px solid  rgb(216, 213, 213);
+    border-bottom: 5px solid rgb(133, 130, 130);
+}
+.handle{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    bottom: 160px;
+    left: 910px;
+    border: 20px solid #051067;
+    border-left: 0px solid#051067;
+    box-shadow: 0px 0px 8px 0px rgb(33, 33, 33);
+}
+/* .plate{
+    height: 250px;
+    width: 500px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -30px;
+    left: 500px;
+
+} */
+
+.vapor1{
+  position: absolute;
+  height: 180px;
+  width: 15px;
+  background-color: #ffffff;
+  border-radius: 45%;
+  top: 230px;
+  left: 690px;
+  bottom: 50px;
+  animation: vapor;
+  filter: blur(20px);
+  animation-duration: 3s;
+  /* animation-delay: 2s; */
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+ .vapor2{
+  position: absolute;
+  height: 350px;
+  width: 15px;
+  background-color: #ffffff;
+  border-radius: 80%;
+  top: 180px;
+  left: 730px;
+  animation: vapor;
+  filter: blur(20px);
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.vapor3{
+  position: absolute;
+  height:190px;
+  width: 15px;
+  background-color: #ffffff;
+  border-radius: 80%;
+  top: 270px;
+  left: 770px;
+  animation: vapor;
+  filter: blur(20px);
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.vapor4{
+  position: absolute;
+  height: 210px;
+  width: 15px;
+  background-color: #ffffff;
+  border-radius: 80%;
+  top: 260px;
+  left: 810px;
+  filter: blur(20px);
+  animation: vapor;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+
+ @keyframes vapor{
+    0% {
+        translate: (-500px);;
+        background: linear-gradient(rgb(255, 255, 255), white, rgb(220, 220, 220));
+    }
+    50% {
+      transform: translateY(-150px);
+    }
+    100% {
+      transform: translateY(-200px);
+    }
+   
+ }

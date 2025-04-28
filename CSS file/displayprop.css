@@ -1,0 +1,32 @@
+.gp{
+    height: 700px;
+    width: 700px;
+    background-color: rgb(241, 188, 26);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.parent{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(103, 77, 45);
+    display: flex;
+    align-items: center;
+    align-items: start;
+    align-items: end;
+    align-items: center;
+    justify-content: start;
+    justify-content: end;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}

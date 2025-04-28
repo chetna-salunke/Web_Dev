@@ -1,0 +1,44 @@
+/* flex */
+.parent{
+    height:400px;
+    width: 700px;
+    background-color: rgb(144, 139, 135);
+    display: flex;
+    /* justify-content: space-evenly;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+}
+.parent .child{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(50, 79, 204);
+    border:1px solid black;
+}
+.parent .child3{
+    /* flex-grow: 2; */
+    flex-basis: 250px;
+}
+
+/* inline block */
+#one{
+    background-color: palegreen;
+    display: inline;
+    height: 100px;
+}
+#two{
+    background-color: lightblue;
+    display: inline;
+}
+#girl1{
+    background-color: palevioletred;
+    display: inline-block;
+    height: 100px;
+}
+#girl2{
+    background-color: peru;
+    font-size: 30px;
+}

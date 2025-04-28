@@ -1,0 +1,59 @@
+/* .parent{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(160, 139, 136);
+    grid is used to give the layout to the container */
+    /* display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto ;
+}
+.parent .child{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(44, 38, 44);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(205, 191, 191);
+} */
+
+/* task grid  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-color: rgb(57, 53, 53);
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    /* in this 1fr property is used to divide the columns or row ...(repeat,auto,pixel 1fr,2fr-->property of grid template column or row)*/
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+.child{ 
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+    background: linear-gradient(rgb(140, 228, 228),rgb(41, 92, 246), rgb(229, 233, 217), rgb(7, 14, 113));
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.content1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

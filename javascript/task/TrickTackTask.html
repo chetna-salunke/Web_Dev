@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trick Tack Task</title>
+</head>
+<style>
+    #showsum{
+        margin-left:200px;
+        font-size: 30px;
+    }
+</style>
+<body>
+    <h1>Trick Tack Tack</h1>
+    <button onclick="printNumber()">Print random number</button>
+    <button onclick="showNumber()">Show random number</button>
+    <ul id="numlist"></ul>
+    <p id="showsum"></p>
+
+    <script>
+        let number=[];
+        function printNumber(){
+            let randomNumber=Math.trunc(Math.random()*100);
+            number.push(randomNumber);
+            alert(`You're random number is ${randomNumber}`)
+        }
+
+        function showNumber(){
+            let numlist=document.querySelector("#numlist");
+            numlist.innerHTML= "";
+            let sum=0 ;
+            number.forEach(num =>{
+               
+                let li=document.createElement("li")
+                numlist.appendChild(li);               
+                sum = sum+num;
+                li.textContent=` ${num}`; 
+            })
+            showsum.textContent=`sum is ${sum}`            
+        }       
+    </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #msg {
+      position: relative;
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+      color: purple;
+      background-color: pink;
+      padding: 20px;
+      animation: move-middle-left-right 5s infinite;
+    }
+
+    #msg span {
+      display: inline-block;
+      animation: wave-up-down 4s infinite ease-in-out;
+    }
+
+    #msg span:nth-child(1) {
+      animation-delay: 0s; /* "Happy" starts first */
+    }
+
+    #msg span:nth-child(2) {
+      animation-delay: 0.2s; /* "New" starts with delay */
+    }
+
+    #msg span:nth-child(3) {
+      animation-delay: 0.4s; /* "Year" starts last */
+    }
+
+    @keyframes move-middle-left-right {
+      0%,
+      75%,
+      100% {
+        transform: translateX(0); /* Center */
+      }
+      25% {
+        transform: translateX(-40%); /* Move to the left */
+      }
+      50% {
+        transform: translateX(40%); /* Move to the right */
+      }
+    }
+    @keyframes wave-up-down {
+      0%,
+      100% {
+        transform: translateY(0); /* Start and end at normal position */
+      }
+      25% {
+        transform: translateY(-30px); /* Higher peak */
+      }
+      50% {
+        transform: translateY(15px); /* Downward dip */
+      }
+      75% {
+        transform: translateY(-20px); /* Intermediate upward */
+      }
+    }
+  </style>
+  <body>
+    <!-- <h1 id="wish" style="color: green">Happy New Year 2025</h1>
+    <h1 id="wish">Happy New Year 2025</h1>
+    <h1 id="wish">Happy New Year 2025</h1> -->
+
+    <!-- <h1 class="miss">Missing 2024</h1>
+    <h1 class="miss">Missing Home</h1>
+    <h1 class="miss">Missing Nativeplace</h1> -->
+    <!--
+    <h1 class="miss">Today is friday</h1>
+
+    <h3 class="girls">Hii</h3>
+    <h3 class="girls">hello</h3>
+    <h3 class="girls">Heyyy</h3> -->
+    <div id="msg">
+      <span>Happy</span>
+      <span>New</span>
+      <span>Year</span>
+    </div>
+
+    <!-- <button onclick="otp()">Click for OTP</button> -->
+    <script src="./file.js"></script>
+  </body>
+</html>

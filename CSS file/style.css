@@ -1,0 +1,50 @@
+
+/* css means poring/adding styles */
+/* external css */
+
+/* universal selector */
+*{
+    background-color:  rgb(130, 144, 199);
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+/* Id selector */
+h1{
+    background-color:palevioletred;
+}
+h2{
+    background-color:burlywood;
+}
+
+/* class selector */
+#first{
+    background-color: lightcoral;
+}
+#second{
+    background-color: darkgray;
+}
+#third{
+    background-color: sandybrown;
+}
+.fish{
+    border: 5px solid rgb(220, 224, 232);
+}
+.food{
+    border: 7px solid rgb(0, 0, 0);
+    border-radius: 100px;
+
+}
+
+/* tagname selector */
+section{
+    height: 200px;
+    width: 200px;
+    background-color: sienna;
+
+}
+
+/* grouping selector */
+h2,h3,input{
+    background-color: darkolivegreen;
+}

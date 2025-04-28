@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <div style="background-color:rgb(186, 157, 157); width:50%"><br>
+        <h1>FORM</h1>
+        <form action="">
+            <label for="user"> Name:</label>
+            <input type="text"name="Uername"><br><br>
+    
+            <label for="email">Email: </label>
+            <input type="email"><br><br>
+           
+            <label for="dob">DOB: </label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="con">Contact: </label>
+            <input type="tel" id="con" name="contact"><br><br>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="Age"><br><br>
+            
+            <label for="id">Stud Id:</label>
+            <input type="tel"  id="id" name="Stdid"><br><br>
+            
+            <!-- whatever we write in value" it will display on user webpage url if not connected to dbthe valu will be shown their -->
+            <label for="bld">Blood Grp:</label>
+            <input type="radio" id="bld" name="Blood grp"value="O" >O+
+            <input type="radio" id="bld" name="Blood grp" value="B+">B+
+            <input type="radio" id="bld" name="Blood grp" value="A+">A+
+            <input type="radio" id="bld" name="Blood grp" value="AB+">AB+ <br><br>
+            
+            <!-- creating Radion with HTML -->
+            <label for=""> Gender:</label>
+            <input type="radio" id="genz" name="gender" value="wonder women">Female
+            <input type="radio" id="genz" name="gender" value="Alpha male">Male
+            <input type="radio" id="genz" name="gender" value="Gods Creation">Others <br><br>
+
+             <label for="addr"> Stutdent Addr:</label>
+             <textarea name="Address" id="Addr" cols="20" rows="5"></textarea><br><br>
+
+             <!-- creating Dropdown With HTML --- we can use outgroup when we want more than one main option--> 
+              <label for="Edu">Education:</label>
+              <select name="Education" id="edu">
+                <optgroup label="bachelore">
+                    <option value="B.Tech">B.tech</option>
+                    <option value="BCA">BCA</option>
+                    <option value="B.E">B.E</option>
+                </optgroup>
+                <optgroup label="masters">
+                    <option value="M.Tech">M.tech</option>
+                    <option value="MCA">MCA</option>
+                    <option value="M.E">M.E</option>
+                </optgroup>
+              </select><br><br>
+
+              <!-- creating checkbox -->
+              <label for="skills">Skills:</label>
+              <input type="checkbox" id="skill"  name="skill">SQL
+              <input type="checkbox" id="skill"  name="skill">JAVA
+              <input type="checkbox" id="skill"  name="skill">Web Tech
+              <input type="checkbox" id="skill"  name="skill">Aptitude <br><br>
+
+              <label for="Hobbies"> Hobbies:</label>
+              <input type="checkbox" id="Hobbie"  name="Hobbie">Singing
+              <input type="checkbox" id="Hobbie"  name="Hobbie">Cooking
+              <input type="checkbox" id="Hobbie"  name="Hobbie">Gardning
+              <input type="checkbox" id="Hobbie"  name="Hobbie">Dancing <br><br>
+              
+              <!-- creating file and color -->
+              <label for="">Resume:</label>
+              <input type="file"><br><br>
+
+              <input type="color" name="" id=""><br><br>
+
+              <!-- validattion atributes placeholder, readonly required and disabled -->
+              <input type="text" name="username" placeholder="username"><br><br>
+              <input type="email" name="email" placeholder="email" required><br><br>
+              <input type="text" placeholder="readonly" readonly><br><br>
+              <input type="text" placeholder="disabled" disabled><br><br>
+              <input type="text " autofocus placeholder="autofocus"><br><br>
+              
+              <!-- maxlength and minlength -->
+               <input type="tel" autofocus maxlength="10" minlength="10" placeholder="contact(max-minlength)"> <br><br>
+               <input type="date" max="2024-10-23" min="2024-10-12" ><br><br>
+               <input type="text" size="90"><br><br>
+               <input type="password" placeholder="password" pattern="[A-Za-c0-8- ]{6}" name="password">
+
+             <hr>
+            <button>submit</button><br><br>
+        </form>
+    </div>
+</center>
+</body>
+</html>

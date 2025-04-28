@@ -1,0 +1,1086 @@
+/* .parent{
+    height: 400px ;
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 100px;
+}
+.parent .child1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(230, 86, 86);
+}
+.parent .child2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(165, 27, 163);
+    position: relative;
+    margin-left: 300px;
+}
+.parent .child3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(20, 155, 162);
+    margin-left: 150px;
+}
+.parent .child4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(58, 162, 20);
+    margin-left: 30px;
+} */
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    font-style: italic;
+  }
+.parent{
+    height: 390vh;
+    width: 100%;
+    background-color: rgb(234, 180, 180);
+}
+.menu1{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu1 img{
+    height: 200px;
+    width: 200px;
+    padding: 10px 25px 10px 25px ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.menu1 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(231, 90, 8);
+}
+.menu1 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+
+}
+/* for the keyboard use windows + : */
+/* .menu1 h1::before{
+    content: "❤️"; 
+} */
+.menu1 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color: rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+}
+.menu1 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+.menu2{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 500px;
+    top: -400px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu2 img{
+    height: 200px;
+    width: 200px;
+    padding: 10px 25px 10px 25px ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.menu2 h1{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(162, 72, 7);
+}
+/* .menu2 h1::before{
+    content: "❤️";   
+} */
+.menu2 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+.menu2 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+
+}
+
+.menu2 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+.menu3{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 800px;
+    top: -814px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu3 img{
+   height: 200px;
+   width: 200px;
+   padding: 10px 25px 10px 25px ;
+   border-top-right-radius: 30%;
+   border-bottom-left-radius: 30%;
+}
+.menu3 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(248, 248, 248);
+}
+.menu3 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+
+.menu3 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+
+}
+.menu3 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+.menu4{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 1100px;
+    top: -1270px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu4 img{
+    height: 200px;
+    width: 200px;
+   padding: 10px 25px 10px 25px ;
+   border-top-right-radius: 30%;
+   border-bottom-left-radius: 30%;
+}
+.menu4 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(220, 108, 18);
+}
+.menu4 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+
+.menu4 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+
+}
+.menu4 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+.menu5{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 200px;
+    top: -1200px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu5 img{
+    height: 200px;
+    width: 200px;
+   padding: 10px 25px 10px 25px ;
+   border-top-right-radius: 30%;
+   border-bottom-left-radius: 30%;
+}
+.menu5 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(252, 252, 252);
+}
+.menu5 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+
+.menu5 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+
+}
+
+.menu5 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+
+.menu6{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 500px;
+    top: -1650px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu6 img{
+    height: 200px;
+    width: 200px;
+    padding: 10px 25px 10px 25px ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.menu6 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(235, 93, 116);
+}
+.menu6 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+.menu6 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color: rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+
+}
+
+.menu6 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+.menu7{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 800px;
+    top: -2100px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu7 img{
+    height: 200px;
+    width: 200px;
+    padding: 10px 25px 10px 25px ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.menu7 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(51, 78, 177);
+}
+.menu7 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+.menu7 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+
+}
+.menu7 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+
+.menu8{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 1100px;
+    top: -2550px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu8 img{
+   height: 200px;
+   width: 200px;
+   padding: 10px 25px 10px 25px ;
+   border-top-right-radius: 30%;
+   border-bottom-left-radius: 30%;
+}
+.menu8 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(186, 96, 18);
+}
+.menu8 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+
+.menu8 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+
+}
+.menu8 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+.menu9{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 200px;
+    top: -2490px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu9 img{
+    height: 200px;
+    width: 200px;
+   padding: 10px 25px 10px 25px ;
+   border-top-right-radius: 30%;
+   border-bottom-left-radius: 30%;
+}
+.menu9 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.menu9 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+
+.menu9 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+
+}
+.menu9 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+.menu10{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 500px;
+    top: -2940px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu10 img{
+    height: 200px;
+    width: 200px;
+   padding: 10px 25px 10px 25px ;
+   border-top-right-radius: 30%;
+   border-bottom-left-radius: 30%;
+}
+.menu10 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(235, 107, 9);
+}
+.menu10 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+.menu10 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+}
+
+.menu10 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+
+.menu11{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 800px;
+    top: -3390px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu11 img{
+    height: 200px;
+    width: 200px;
+    padding: 10px 25px 10px 25px ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.menu11 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(249, 249, 61);
+}
+.menu11 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+
+.menu11 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color: rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+}
+
+.menu11 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+.menu12{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 1100px;
+    top: -3840px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu12 img{
+    height: 200px;
+    width: 200px;
+    padding: 10px 25px 10px 25px ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.menu12 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(243, 248, 184);
+}
+.menu12 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+
+.menu12 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+}
+.menu12 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+.menu13{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 200px;
+    top: -3790px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu13 img{
+    height: 200px;
+    width: 200px;
+    padding: 10px 25px 10px 25px ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.menu13 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(202, 27, 27);
+}
+.menu13 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+.menu13 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+}
+
+.menu13 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+.menu14{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 500px;
+    top: -4240px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu14 img{
+    height: 200px;
+    width: 200px;
+    padding: 10px 25px 10px 25px ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.menu14 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(255, 254, 252);
+}
+.menu14 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+
+.menu14 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+}
+
+.menu14 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+
+.menu15{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 800px;
+    top: -4690px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu15 img{
+    height: 200px;
+    width: 200px;
+    padding: 10px 25px 10px 25px ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.menu15 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(145, 147, 12);
+}
+.menu15 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+.menu15 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color: rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+}
+
+.menu15 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+
+.menu16{
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    position: relative;
+    left: 1100px;
+    top: -5135px;
+    border-radius: 0px 70px 0px 70px ;
+}
+.menu16 img{
+    height: 200px;
+    width: 200px;
+    padding: 10px 25px 10px 25px ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.menu16 h1{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(24, 165, 8);
+}
+.menu16 h5{
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+.menu16 button{
+    padding: 10px 25px 10px 25px;
+    position: relative;
+    background-color:  rgb(228, 201, 151);
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    font-size:10px;
+    font-weight: 800;
+}
+
+.menu16 div.icons{
+    color:rgb(255, 255, 255);
+    padding-left: -90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i:first-child{
+    background-color: #931010;
+    padding: 3px;
+    border-radius: 40%;
+}
+.icons i:last-child{
+    background-color: #f61e1e;
+    padding: 2px;
+    border-radius: 40%;
+}
+.icons i:nth-child(2){
+    background-color: #4540d9;
+    padding: 2px;
+    border-radius: 40%;
+}
+
+

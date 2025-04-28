@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-color: rgb(9, 9, 9);
+    height: 750;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    /* in this 1fr property is used to divide the columns or row ...(repeat,auto,pixel 1fr,2fr-->property of grid template column or row)*/
+    grid-template-columns: repeat(4,2fr);
+    grid-template-rows: repeat(4,1fr);
+    
+}
+.child{ 
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 30px;
+    background-color: #4173a1;
+    padding: 100px;
+}
+.h1{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #05410c;
+}
+.h2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: #05410c;
+}
+
+.h3{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    background-color: rgb(218, 19, 19);
+}
+.h4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: rgb(201, 201, 4);
+}
+.h5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: rgb(218, 19, 19);
+}
+.h6{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #05410c;
+}
+.h7{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: rgb(218, 19, 19);
+}
+.h8{
+    background-color: rgb(201, 201, 4);
+}

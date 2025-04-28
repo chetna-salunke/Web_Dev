@@ -1,0 +1,136 @@
+/* .box{
+    height: 100px;
+    width: 400px;
+    background-color: palevioletred;
+    border: 2px solid black;
+    margin: 100px;
+    padding: 50px;
+} */
+
+.card1{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding-left: 30px;
+    /* padding-bottom: 20px;  TRBL-topright bottom left
+    padding-top: 20px;
+    padding-right: 30px;
+     */
+    padding: 20px 10px 20px 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 2px solid black;
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    background-color: #bdaaaa;
+    margin-left: 100px;
+}
+
+.card2{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding: 20px 10px 20px 30px;
+    margin-top: -490px;
+    margin-left: 470px;
+    border: 2px solid black;
+}
+.card3{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding: 20px 10px 20px 30px;
+    margin-top: -490px;
+    margin-left: 890px;
+    border: 2px solid black;
+}
+.card4{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding: 20px 10px 20px 30px;
+    margin-top: 50px;
+    margin-left: 45px;
+    border: 2px solid black;
+}
+.card5{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding: 20px 10px 20px 30px;
+    margin-top:-495px;
+    margin-left: 470px;
+    border: 2px solid black;
+}
+
+.card6{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding: 20px 10px 20px 30px;
+    margin-top: -490px;
+    margin-left: 890px;
+    border: 2px solid black;
+}
+
+.card7{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding: 20px 10px 20px 30px;
+    margin-top:50px;
+    margin-left: 48px;
+    border: 2px solid black;
+}
+
+
+.card8{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding: 20px 10px 20px 30px;
+    margin-top: -490px;
+    margin-left: 470px;
+    border: 2px solid black;
+}
+.card9{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding: 20px 10px 20px 30px;
+    margin-top: -490px;
+    margin-left: 890px;
+    border: 2px solid black;
+}
+
+.card10{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding: 20px 10px 20px 30px;
+    margin-top: 50px;
+    margin-left: 48px;
+    border: 2px solid black;
+}
+
+
+.card11{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding: 20px 10px 20px 30px;
+    margin-top: -490px;
+    margin-left: 470px;
+    border: 2px solid black;
+}
+.card12{
+    height: 450px;
+    width: 330px;
+    background-color: rgb(107, 87, 87);
+    padding: 20px 10px 20px 30px;
+    margin-top: -490px;
+    margin-left: 890px;
+    border: 2px solid black;
+}
