@@ -1,0 +1,41 @@
+/* form{
+    height: 400px;
+    width: 210px;
+    border: 3px solid black;
+    padding: 15px;
+}
+
+input{
+    height: 30px;
+    margin-bottom: 8px;
+    width: 180px;
+}
+button{
+    padding: 9px;
+    background-color: rgb(147, 58, 88);
+    border: whitesmoke;
+}
+
+.navbar{
+    height: 70px;
+    background-color: rgb(120, 71, 12);
+    display: flex;
+    color: white;
+  }
+  .navbar ul{
+    display: flex;
+    list-style: none;
+    padding-left: 50px;
+    margin-left: 10px;
+  }
+  .navbar ul li a{
+     margin-left: 20px;
+     color: white;
+     font-size: 20px;
+     text-decoration: none;
+  } */
+
+  .box{
+    border:  2px solid black;
+    padding: 25px;
+  }

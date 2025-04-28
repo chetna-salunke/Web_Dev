@@ -1,0 +1,36 @@
+.navbar{
+    height: 4rem;
+    background-color: #d61616;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar ul li{
+    padding-left: 50px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar ul li:hover {
+    color: #ffcc00; /* Change text color on hover (optional) */
+}
+
+.navbar  div button{
+    padding: 6px 10px 6px 10px;
+    position: absolute;
+    right: 20px; 
+    top: 15px;
+    border: none;
+    background-color: rgb(237, 255, 165);
+    border-radius: 5px;
+}
+.navbar div button:first-child{
+    right: 120px;
+}
+

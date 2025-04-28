@@ -1,0 +1,46 @@
+.parent {
+    /* height: 90vh; /* Consider using min-height: 100vh for full viewport coverage */
+    width: 100%;
+    background-color: #febfbf;
+    display: flex;
+    z-index: 1;
+    min-height: 100vh; /* Ensure parent covers at least the viewport height */
+}
+
+.parent .asidebar {
+    /* height: 90vh; /* Will be overridden by fixed positioning */
+    width: 13%;
+    border: 2px solid #000000;
+    position: fixed; /* Make the sidebar fixed */
+    top:0;
+    left: 0;
+    height: 100vh; /* Take full viewport height */
+    box-sizing: border-box; /* Include padding and border in width/height */
+    overflow-y:auto; /* Make sidebar content scrollable if it overflows */
+}
+
+.parent .asidebar h3 {
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.parent .asidebar ul {
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+    list-style: none;
+}
+
+.parent .asidebar ul li {
+    padding-top: 0.7rem;
+}
+
+.parent .mainbar {
+    /* height: 220vh; /* Allow main content to scroll */
+    width: 87%;
+    border: 3px solid black;
+    background-color: rgb(195, 174, 118);
+    /* position: sticky; /* Remove sticky for mainbar to allow scrolling */
+    margin-left: 13%; /* Push main content to the right by sidebar's width */
+    box-sizing: border-box; /* Include padding and border in width/height */
+}

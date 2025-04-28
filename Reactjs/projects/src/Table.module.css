@@ -1,0 +1,36 @@
+.parent{
+    height: 400px;
+    margin-top: 100px;
+    background-color: #aba2a2;
+    width: 550px;
+}
+h2 {
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+.parent table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: sans-serif;
+  }
+  
+  th,td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3fb174;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #cfdce2;
+  }
+  
+  tr:hover {
+    background-color: #a3c9cf;
+  }
+  

@@ -1,0 +1,23 @@
+.parent{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(142, 209, 232);
+    position: absolute;
+    left: 50%;
+    top:50%;
+}
+@keyframes move {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(300px);
+    }
+    
+}
